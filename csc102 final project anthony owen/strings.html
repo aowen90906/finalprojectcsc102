@@ -1,0 +1,67 @@
+<!--Anthony Owen
+    CSC102  
+    Final project
+    ui added buttons
+     -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="strings-2.css">
+    <script src = "function string().js"></script>
+</head>
+<!--creates alert when opening page-->
+<script>alert("enter string, first/last name, zipcode for verification")</script>
+<!-- nav section with buttons for navigating to all pages-->
+<nav><button id="Palindrome" onclick="Palindrome();">Palindrome</button>  <button id="Boards" onclick="Boards();">Boards</button>  <button id="Game" onclick="Game();">Game</button><button id="tables" onclick="tables();">Tables</button><button id="Index" onclick="Index();">Index</button> </nav>
+    <p>
+        <!--welcome header-->
+        <h1> Welcome to Silly Strings </h1>
+    </p>
+    <!--inputs audio controls on the page-->
+    <audio controls>
+        <source src = "basicdub.mp3"></audio>
+    </audio>
+<div>
+    <!--adds lets listen button-->
+    <button onclick="letsListen();">lets listen</button>
+    <!--adds im done button-->
+    <button onclick="okEnough()";>im done</button>
+        
+    </audio>
+<body>
+    
+
+    <br>
+        <!--inputs a form for user verification-->
+    <form id = "inputForm2" onsubmit = " return false " >
+        <!--input locations for text-->
+        first name : <input type = "text" id = "firstName"/>
+        last name : <input type="text" id = "lastName" />
+        <br>
+        <!--inputs verification submittion button -->
+            <input type = "submit" onclick = "verifyname();"/>
+        <p id = "nameStatus"> name verified?</p>
+        <!--inputs number verification-->
+        zipcode : <input type="number" id= "zipcode" />
+        <!--inputs submittion button to verify zipcode-->
+            <input type = "submit" onclick = "verifyzipcode();"/>
+        <!--location for zipcode verification, once verified displays secret message-->
+            <p id= "zipcodeStatus"> zipcode accepted? </p>
+
+    
+
+
+    </form>
+        
+        
+        <!--add's silly string image -->
+        <img id="memeimage" src="sillystring.png.webp" />
+
+</body>
+<!--adds footer bg color blue, font color black, font size xl, cursor becomes crosshair-->
+<footer>Enter as Many Strings as You'd Like!</footer>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome</title>
+    <script src = "Palindrome.js"></script>
+    <link rel = "stylesheet" href="Palindrome.css"/>
+    <nav><button id="Index" onclick="Index();">Index</button>  <button id="Boards" onclick="Boards();">Boards</button>  <button id="strings" onclick="strings();">Strings</button><button id="tables" onclick="tables();">Tables</button><button id="Game" onclick="Game();">Game</button> </nav>
+</head>
+    <!--inputs a text is this a palindrome?-->
+    <H1>Is This A Palindrome?</H1>
+    <!--inputs what a palindrome is-->
+    <H4>What Is A Palindrome?
+        A word, phrase, or sequence that reads the same backward as forward!?
+    </H4>
+<body>
+        <!--inputs a form with single input for a string -->
+        <form id = "inputForm" onsubmit = " return false " >
+            <!--creates input box-->
+            Check For Palindrome : <input type = "text" id = "firstInput"/>
+            <!--creates a button to check for palindrome-->
+            <input type = "submit" onclick = "strings();"/> 
+            <p id= "stringStatus">Is this a Palindrome?</p>
+        </form>
+    <!--taco cat image input on page-->
+        <img src ="tacocat.jpg.webp" id="tacocat" style = "position:absolute; width:300px;"/>
+
+
+</body>
+</html>

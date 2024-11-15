@@ -1,0 +1,70 @@
+h1
+{
+    text-align: center;
+}
+
+body
+{
+    background-color: red;
+}
+
+datatable
+{
+    border: 10px;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+
+nav
+{
+    background-color: purple;
+    text-align: center;
+}
+#Index
+{
+    background-color: yellow;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+#Boards
+{
+    background-color: pink;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;  
+}
+#strings
+{
+    background-color: lightgrey;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+#palindrome
+{
+    background-color: turquoise;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+#Game
+{
+background-color: magenta;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+#M8
+{
+    border-radius: 50px;
+   
+}

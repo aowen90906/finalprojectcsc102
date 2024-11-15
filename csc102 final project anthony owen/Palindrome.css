@@ -1,0 +1,76 @@
+
+body
+{
+    background-color: red;
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+    color: blue;
+    background-color: hotpink;
+}
+h4
+{
+    text-align: center;
+    color: black;
+    background-color: darkorange;
+}
+
+input 
+{
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: yellow;
+}
+
+#stringStatus
+{
+    color: blue;
+    font-family: cursive;
+    padding: 20px;
+}
+
+#Index
+{
+    background-color: yellow;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+#Boards
+{
+    background-color: pink;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;  
+}
+#strings
+{
+    background-color: lightgrey;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+#tables
+{
+    background-color: turquoise;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+#Game
+{
+background-color: magenta;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}

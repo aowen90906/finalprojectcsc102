@@ -1,0 +1,81 @@
+#flip-a-coin
+{
+    background-color: silver;
+    text-align: center;
+    border: color(black);
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+body
+{
+    background-color: aqua;
+}
+h1
+{
+    font: italic;
+    font-size: large;
+    background-color: chartreuse;
+}
+
+p
+{
+    font-size: xx-large;
+    font: bold;
+    
+}
+#stringStatus
+{
+    color: blue;
+    font-family: cursive;
+    padding: 20px;
+
+}
+
+#Palindrome
+{
+    background-color: yellow;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    
+}
+#Boards
+{
+    background-color: pink;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;  
+}
+#strings
+{
+    background-color: lightgrey;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+#tables
+{
+    background-color: turquoise;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+#Index
+{
+background-color: magenta;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+nav
+{
+    background-color: bisque;
+}

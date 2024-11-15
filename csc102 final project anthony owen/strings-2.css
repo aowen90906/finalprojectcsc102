@@ -1,0 +1,80 @@
+body
+{
+    text-align: center;
+    background-color: darkorange;
+    height: 100%;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: red;    
+}
+#inputForm 
+{
+    background-color: black;
+    text-decoration: greenyellow ;
+}
+
+
+#inputForm2
+{
+    background-color: darkgreen;
+}
+
+h1
+{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: aqua;
+}
+
+footer
+{
+    background-color: blue;
+    color: black;
+    font-size: x-large;
+    cursor: crosshair ; 
+    
+
+}
+#Palindrome
+{
+    background-color: yellow;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    
+}
+#Boards
+{
+    background-color: pink;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;  
+}
+#Game
+{
+    background-color: lightgrey;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+#tables
+{
+    background-color: turquoise;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+#Index
+{
+background-color: magenta;
+    font-size: large;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
